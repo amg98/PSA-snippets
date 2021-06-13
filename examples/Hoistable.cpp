@@ -1,3 +1,5 @@
+//infer --loop-hoisting run -- g++ Hoistable.cpp
+
 int foo(int x, int y) {
     return x + y;
 }

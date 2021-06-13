@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
+#include <stdlib.h>
 
 char *getFileContents(const char *path) {
     FILE *f = fopen(path, "rb");
@@ -11,7 +12,7 @@ char *getFileContents(const char *path) {
     void *buffer = malloc (size);
     fread(buffer, size, 1, f);
 
-    return buffer;
+    return (char*)buffer;
 }
 
 int main(int argc, char **argv) {
