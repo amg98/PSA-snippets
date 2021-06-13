@@ -1,4 +1,4 @@
-//
+// ./infer-linux64-v1.1.0/bin/infer run -- gcc ./examples/NullChecks.c
 
 #include <stdlib.h>
 #include <stdint.h>

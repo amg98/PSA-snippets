@@ -1,3 +1,4 @@
+// ./infer-linux64-v1.1.0/bin/infer run -- g++ ./examples/MemoryLeak.cpp
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
